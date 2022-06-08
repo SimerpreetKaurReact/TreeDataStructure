@@ -7,7 +7,6 @@ class Solution {
     this.getInorder(root.right, res);
   }
   inOrder(root) {
-    // your code here
     let res = [];
     this.getInorder(root, res);
     return res;
